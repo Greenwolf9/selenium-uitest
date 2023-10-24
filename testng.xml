@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing DEMOQA">
+    <parameter name = "browser" value="chrome"/>
+    <test name="Widgets">
+        <classes>
+            <class name="WidgetsPageTests"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Interactions">
+        <classes>
+            <class name="InteractionsPageTests"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Alerts and Windows">
+        <classes>
+            <class name="AlertFrameWindowPageTests"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Elements">
+        <classes>
+            <class name="ElementsPageTests"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
